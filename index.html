@@ -1,49 +1,60 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>City Lovers</title>
+
 </head>
 
 <body>
     <!--Menu-->
     <nav class="menu">
-            <ul>
-                <a class="menu_item" href="index.html"><img class="menu_logo" src="/imagens/wellington-logo.png"></a>
-                <a class="menu_item" href="index.html">Home</a>
-                <a class="menu_item" href="sobre.html">Sobre</a>
-                <a class="menu_item" href="produtos.html">Produtos</a>
-                <a class="menu_item" href="contato.html">Contato</a>
-                <!--Dark mode e light mode-->
-                <input type="button" value="Claro" class="darkmode" onclick="trocar('#323330')" />
-                <input type="button" value="Escuro" class="darkmode" onclick="trocar('#000000')" />
-            </ul>
+        <ul>
+            <a class="menu_item" href="index.html"><img class="menu_logo" src="/imagens/wellington-logo.png"></a>
+            <a class="menu_item" href="index.html">Home</a>
+            <a class="menu_item" href="sobre.html">Sobre</a>
+            <a class="menu_item" href="produtos.html">Produtos</a>
+            <a class="menu_item" href="contato.html">Contato</a>
+            <!--Dark mode e light mode-->
+            <laber for="claro"><i class="icon-sun"></i> </laber>
+            <input type="button" value="Claro" class="darkmode" name="claro" onclick="trocar('#323330')" />
+            <input type="button" value="Escuro" class="darkmode" onclick="trocar('#000000')" />
+        </ul>
     </nav>
 
     <!--Alert de seja bem vindo-->
     <script>
         alert("Seja bem-vindo(a)!")
     </script>
-
+    <p><br></p>
     <!--Slide-->
     <div>
-    <img id="imagens" />
+        <img id="imagens" />
     </div>
 
     <!--Texto-->
     <div class="texto-sobre">
         <h2>Este é o fã-clube #1 do professor Wellington Cidade!</h2>
+        <br><br>
+        <p>Criamos este fã-clube com o objetivo de reunir entusiastas do Javascript e front-end, clientes, empregadores,
+            amigos pessoais e alunos que foram inspirados e guiados pela expertise do professor.
             <br><br>
-            <p>Criamos este fã-clube com o objetivo de reunir entusiastas do Javascript e front-end, clientes, empregadores, amigos pessoais e alunos que foram inspirados e guiados pela expertise do professor.
+            Temos membros de todas as habilidades e níveis de experiência, desde os que estão começando a aprender a
+            programar, até os mais experientes, afinal, todos são bem-vindos e têm algo a contribuir. Assim, aumentamos
+            nosso networking e encontramos oportunidades de emprego e colaboração através de nossa própria comunidade.
             <br><br>
-            Temos membros de todas as habilidades e níveis de experiência, desde os que estão começando a aprender a programar, até os mais experientes, afinal, todos são bem-vindos e têm algo a contribuir. Assim, aumentamos nosso networking e encontramos oportunidades de emprego e colaboração através de nossa própria comunidade.
+            Com uma paixão contagiante pelo assunto, o professor Wellington Cidade é conhecido por suas aulas dinâmicas
+            e práticas que ajudam seus alunos a compreenderem as complexidades do Javascript de uma forma divertida e
+            acessível. Dando atenção sempre que necessário e ajudando quando preciso.
             <br><br>
-            Com uma paixão contagiante pelo assunto, o professor Wellington Cidade é conhecido por suas aulas dinâmicas e práticas que ajudam seus alunos a compreenderem as complexidades do Javascript de uma forma divertida e acessível. Dando atenção sempre que necessário e ajudando quando preciso.
-            <br><br>
-            Nosso fã-clube é uma comunidade amigável e acolhedora, onde nos conectamos com outros entusiastas da aula do professor Wellington. Se você é um estudante da FIAP ou apenas um grande fã do Wellington, junte-se a nós e saia estampando o rosto do professor por aí!</p>
+            Nosso fã-clube é uma comunidade amigável e acolhedora, onde nos conectamos com outros entusiastas da aula do
+            professor Wellington. Se você é um estudante da FIAP ou apenas um grande fã do Wellington, junte-se a nós e
+            saia estampando o rosto do professor por aí!
+        </p>
     </div>
 
     <script src="script.js"></script>
@@ -51,9 +62,11 @@
 
 <footer>
     <p>
-    <script>
-    let data = new Date()
-    document.write(data.toLocaleDateString());
-    </script> | Todos os direitos reservados.</p>
+        <script>
+            let data = new Date()
+            document.write(data.toLocaleDateString());
+        </script> | Todos os direitos reservados a Wellington Cidade.
+    </p>
 </footer>
+
 </html>

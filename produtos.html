@@ -1,72 +1,109 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="style.css">
+    <title>City Lovers</title>
 </head>
+
 <body>
+
+    <!--Menu-->
+    <nav class="menu">
+        <ul>
+            <a class="menu_item" href="index.html"><img class="menu_logo" src="/imagens/wellington-logo.png"></a>
+            <a class="menu_item" href="index.html">Home</a>
+            <a class="menu_item" href="sobre.html">Sobre</a>
+            <a class="menu_item" href="produtos.html">Produtos</a>
+            <a class="menu_item" href="contato.html">Contato</a>
+            <!--Dark mode e light mode-->
+            <input type="button" value="Claro" class="darkmode" onclick="trocar('#323330')" />
+            <input type="button" value="Escuro" class="darkmode" onclick="trocar('#000000')" />
+        </ul>
+    </nav>
+
+
     <br>
     <h1>Wellington Digital Mall</h1>
     <br>
-<div class="containerloja">
-    <div class="box">
-        <a href="/imgas/camisetaraiz.png" target="_blank"><img src="/imgs/camisetaraiz.png" width="100" height="150"></a>
-        <br>
-        <h2>Camiseta "do jeito raiz"</h2>
-        <h3>R$60,00</h3>
+    <!-- div para a linha de produtos -->
+    <div class="containerloja">
+        <!-- primeira linha de produtos -->
+        <div class="box">
+            <a href="/imagens/camisetaraiz.png" target="_blank"><img src="/imagens/camisetaraiz.png" width="100"
+                    height="150"></a>
+            <br>
+            <h2>Camiseta "do jeito raiz"</h2>
+            <h3>R$60,00</h3>
+        </div>
+        <div class="box">
+            <a href="/imagens/camisetanutella.png" target="_blank"> <img src="/imagens/camisetanutella.png" width="100"
+                    height="150"></a>
+            <br>
+            <h2>Camiseta "do jeito nutella"</h2>
+            <h3>R$60,00</h3>
+        </div>
+        <div class="box">
+            <a href="/imagens/wellingtoshmole.png" target="_blank"><img src="/imagens/wellingtoshmole.png" width="100"
+                    height="150"></a>
+            <br>
+            <h2>Moletom "wellingtosh aesthetic" </h2>
+            <h3>R$200,00</h3>
+        </div>
+        <div class="box">
+            <a href="/imagens/moletomjs.png" target="_blank"><img src="/imagens/moletomjs.png" width="100"
+                    height="150"></a>
+            <br>
+            <h2>Moletom "I love js"</h2>
+            <h3>R$200,00</h3>
+        </div>
     </div>
-    <div class="box">
-        <a href="/imgs/camisetanutella.png" target="_blank"> <img src="/imgs/camisetanutella.png" width="100" height="150"></a>
-        <br>
-        <h2>Camiseta "do jeito nutella"</h2>
-        <h3>R$60,00</h3>
-    </div>
-    <div class="box">
-        <a href="/imgs/wellingtoshmole.png" target="_blank"><img src="/imgs/wellingtoshmole.png" width="100" height="150"></a>
-        <br>
-        <h2>Moletom "wellingtosh aesthetic" </h2>
-        <h3>R$200,00</h3>
-    </div>
-    <div class="box">
-        <a href="/imgs/moletomjs.png" target="_blank"><img src="/imgs/moletomjs.png" width="100" height="150"></a>
-        <br>
-        <h2>Moletom "I love js"</h2>
-        <h3>R$200,00</h3>
-    </div>
-</div>
-<br>
-<div class="containerloja">
-    <div class="box">
-        <a href="/imgs/melhoresdojs.png" target="_blank"><img src="/imgs/melhoresdojs.png" width="150" height="150"></a>
-        <br>
-        <h2>Disco de vinil "melhores do javascript" </h2>
-        <h3>R$150,00</h3>
-    </div>
-    <div class="box">
-        <a href="/imgs/monawelli.png" target="_blank"><img src="/imgs/monawelli.png" width="100" height="150"></a>
-        <br>
-        <h2>Quadro raro "Wellisa"</h2>
-        <h3>R$4500,00</h3>
-    </div>
-    <div class="box">
-        <a href="/imgs/superwellington.png" target="_blank"><img src="/imgs/superwellington.png" width="100" height="150"></a>
-        <br>
-        <h2>Jogo da franquia "Super Wellington Odssey"</h2>
-        <h3>R$399,00</h3>
-    </div>
-    <div class="box">
-        <a href="/imgs/canecacafé.png" target="_blank"><img src="/imgs/canecacafé.png" width="100" height="150"></a>
-        <br>
-        <h2>Caneca "Café sem nutella"</h2>
-        <h3>R$25,00</h3>
-    </div>
-    
-</div>
+    <br>
+    <!-- div para segunda linha de produtos -->
+    <div class="containerloja">
+        <!-- segunda linha de produtos -->
+        <div class="box">
+            <a href="/imagens/melhoresdojs.png" target="_blank"><img src="/imagens/melhoresdojs.png" width="150"
+                    height="150"></a>
+            <br>
+            <h2>Disco de vinil "melhores do javascript" </h2>
+            <h3>R$150,00</h3>
+        </div>
+        <div class="box">
+            <a href="/imagens/monawelli.png" target="_blank"><img src="/imagens/monawelli.png" width="100"
+                    height="150"></a>
+            <br>
+            <h2>Quadro raro "Wellisa"</h2>
+            <h3>R$4500,00</h3>
+        </div>
+        <div class="box">
+            <a href="/imagens/superwellington.png" target="_blank"><img src="/imagens/superwellington.png" width="100"
+                    height="150"></a>
+            <br>
+            <h2>Jogo da franquia "Super Wellington Odssey"</h2>
+            <h3>R$399,00</h3>
+        </div>
+        <div class="box">
+            <a href="/imagens/canecacafé.png" target="_blank"><img src="/imagens/canecacafé.png" width="100"
+                    height="150"></a>
+            <br>
+            <h2>Caneca "Café sem nutella"</h2>
+            <h3>R$25,00</h3>
+        </div>
 
+    </div>
 
-
+    <script src="script.js"></script>
 </body>
+<footer>
+    <p>
+        <script>
+            let data = new Date()
+            document.write(data.toLocaleDateString());
+        </script> | Todos os direitos reservados a Wellington Cidade.
+    </p>
+</footer>
 </html>
