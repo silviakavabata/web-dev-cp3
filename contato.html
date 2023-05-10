@@ -8,7 +8,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container corfundo">
+    <!--Menu-->
+    <nav class="menu">
+        <ul>
+            <a class="menu_item" href="index.html"><img class="menu_logo" src="/imagens/wellington-logo.png"></a>
+            <a class="menu_item" href="index.html">Home</a>
+            <a class="menu_item" href="sobre.html">Sobre</a>
+            <a class="menu_item" href="produtos.html">Produtos</a>
+            <a class="menu_item" href="contato.html">Contato</a>
+            <!--Dark mode e light mode-->
+            <input type="button" value="Claro" class="darkmode" onclick="trocar('#323330')" />
+            <input type="button" value="Escuro" class="darkmode" onclick="trocar('#000000')" />
+        </ul>
+    </nav>
+
+    <div class="container_corfundo">
         <form class="form-cont">
             <center><h1>Preencha as informações abaixo!</h1>
             <br>
@@ -26,12 +40,17 @@
                   
             <input type="button" value="Enviar" class="btn" onclick="validar()">
           </form><br><br><br><br>
+
         <div class="form-cont">
             <center><h1>Nossos contatos:</h1></center>
-            <h2>endereço:</h2>
+            <br>
+            <br>
+            <h2>Endereço:</h2>
             <h3>Rua Santo Antonio,8132</h3>
+            <br>
             <h2>Telefone</h2>
             <h3>11 2034-8965</h3>
+            <br>
             <h2>email</h2>
             <h3>vincity@gmail.com</h3>
         </div></center>
@@ -40,4 +59,13 @@
         </div>
 <script src="script.js"></script>
 </body>
+
+<footer>
+    <p>
+    <script>
+    let data = new Date()
+    document.write(data.toLocaleDateString());
+    </script> | Todos os direitos reservados.</p>
+</footer>
+
 </html>

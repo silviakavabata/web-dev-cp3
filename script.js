@@ -1,9 +1,6 @@
-function trocar(cor){
-    document.body.style.background =cor
+function trocar(darkmode){
+    document.body.style.background = darkmode
 }
-
-let data = new Date()
-document.write(data)
 
 function validar() {
     let nome = document.getElementById("nome").value
@@ -18,7 +15,13 @@ function validar() {
     }
 
 //slideshow
-var imagens=[    'imagens/prod1.png',    'imagens/prod2.png',    'imagens/prod3.png',    'imagens/prod4.png',    'imagens/prod5.png',    'imagens/prod6.png',];
+var imagens=[
+    'imagens/camisetanutella.png',
+    'imagens/camisetaraiz.png',
+    'imagens/canecacafé.png',
+    'imagens/melhoresdojs.png',
+    'imagens/moletomjs.png',
+    'imagens/monawelli.png'];
 
 let Index=0;
 let time =2000;

@@ -4,47 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="style.css">
     <title>City Lovers</title>
 </head>
 
 <body>
-    <!--dark mode-->
-    <div class="darkmode">
-        <input type="button" value="Claro" class="cor" onclick="trocar('#FFDEAD')" />
-        <input type="button" value="Escuro" class="cor" onclick="trocar('#000000')" />
-    </div>
-
-    <!--slideshow-->
-    <center><h1>Alguns de nossos produtos: </h1></center>
-    <div>
-    <img id="imagens" />
-    </div>
-
-    <!--Alert de seja bem vindo-->
-    <script>
-        alert("Seja bem-vindo(a)!")
-    </script>
-
     <!--Menu-->
     <nav class="menu">
             <ul>
                 <a class="menu_item" href="index.html"><img class="menu_logo" src="/imagens/wellington-logo.png"></a>
                 <a class="menu_item" href="index.html">Home</a>
-                <a class="menu_item" href="../pages/sobre.html">Sobre</a>
-                <a class="menu_item" href="../pages/produtos.html">Produtos</a>
-                <a class="menu_item" href="../pages/contato.html">Contato</a>
+                <a class="menu_item" href="sobre.html">Sobre</a>
+                <a class="menu_item" href="produtos.html">Produtos</a>
+                <a class="menu_item" href="contato.html">Contato</a>
                 <!--Dark mode e light mode-->
-                <a class="menu_item_direita"><span class="material-symbols-outlined">clear_night</span></a>
-                <a class="menu_item_direita"><span class="material-symbols-outlined">sunny</span></a>
+                <input type="button" value="Claro" class="darkmode" onclick="trocar('#323330')" />
+                <input type="button" value="Escuro" class="darkmode" onclick="trocar('#000000')" />
             </ul>
     </nav>
 
+    <!--Alert de seja bem vindo
+    <script>
+        alert("Seja bem-vindo(a)!")
+    </script>-->
+
     <!--Slide-->
     <div>
-        <img id="banner">
+    <img id="imagens" />
     </div>
 
     <!--Texto-->
@@ -52,6 +38,8 @@
         <h2>Este é o fã-clube #1 do professor Wellington Cidade!</h2>
             <br><br>
             <p>Criamos este fã-clube com o objetivo de reunir entusiastas do Javascript e front-end, clientes, empregadores, amigos pessoais e alunos que foram inspirados e guiados pela expertise do professor.
+            <br><br>
+            Temos membros de todas as habilidades e níveis de experiência, desde os que estão começando a aprender a programar, até os mais experientes, afinal, todos são bem-vindos e têm algo a contribuir. Assim, aumentamos nosso networking e encontramos oportunidades de emprego e colaboração através de nossa própria comunidade.
             <br><br>
             Com uma paixão contagiante pelo assunto, o professor Wellington Cidade é conhecido por suas aulas dinâmicas e práticas que ajudam seus alunos a compreenderem as complexidades do Javascript de uma forma divertida e acessível. Dando atenção sempre que necessário e ajudando quando preciso.
             <br><br>
@@ -62,6 +50,10 @@
 </body>
 
 <footer>
-    <p>@2023 Todos os direitos reservados.</p>
+    <p>
+    <script>
+    let data = new Date()
+    document.write(data.toLocaleDateString());
+    </script> | Todos os direitos reservados.</p>
 </footer>
 </html>
