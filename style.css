@@ -106,7 +106,7 @@ footer{
 }
 
 .containerloja{
-    height: 100%;
+    height: 35vh;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
