@@ -111,13 +111,13 @@ footer{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    padding-bottom: 3%;
 }
 
 .box{
     width: 20%;
     height: 250px;
     padding: 5px;
-    border:1px solid black;
     text-align: center;
     background-color: #F0DB4F;
     box-shadow: 1px 1px 10px black;
