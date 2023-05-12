@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>City Lovers</title>
+
+</head>
+
+<body>
+    <!--Menu-->
+    <nav class="menu">
+        <ul>
+            <a class="menu_item" href="index.html"><img class="menu_logo" src="/imagens/wellington-logo.png"></a>
+            <a class="menu_item" href="index.html">Home</a>
+            <a class="menu_item" href="sobre.html">Sobre</a>
+            <a class="menu_item" href="produtos.html">Produtos</a>
+            <a class="menu_item" href="contato.html">Contato</a>
+            <!--Dark mode e light mode-->
+            <laber for="claro"><i class="icon-sun"></i> </laber>
+            <input type="button" value="Claro" class="darkmode" name="claro" onclick="trocar('#323330')" />
+            <input type="button" value="Escuro" class="darkmode" onclick="trocar('#000000')" />
+        </ul>
+    </nav>
+    
+    <!--Texto-->
+    <div class="texto-sobre">
+        <h2>Sobre o professor Wellington Cidade!</h2>
+        <br><br>
+
+        <div id="imghomi"><img src="/imagens/homi.jpg" width="300"
+                    height="300"></div><br><br>
+        
+        <p>Nosso querido professor Wellington Cidade vem ganhando o carinho admiração de todos desde os primórdios da programação, trazendo consigo além de uma esbelta careca, um grande carisma, alto astral, uma didádica impecável, conhecimento amplo sobre javascript e o ninguem mais raiz do que O HOMI.
+            <br><br>
+            Não é pra menos ele ser bom desse jeito, com as formações de ciência da computação na UNIESP, Engenharia de software na PUC Minas, Pedagogia no Centro Universitário de Jales, Pós garduação de Atendimento Educacional Especializado na Faculdade de Itaqua, Pós graduação em engenharia de software com Metodologias Ágeis na Universidade Cruzeiro do Sul e Mestrado em desenvolvimento de Software.É uma enciclopédia humano ou não é? LÓGICO QUE É DIACHO, ESTAMOS FALANDO DO TIO WELL!   
+            <br><br>
+            Com conhecimento em:<br><br>
+            # HTML<br>
+            # CSS<br>
+            # JAVASCRIPT<br>
+            #.NET<br>
+            # JAVA<br>
+            # REACT<br>
+            # ANGULAR<br>
+            # VUE<br><br>
+            
+            Agradecemos por todos os seus ensinamentos sábios sobre programação e vida, obrigado pela honra de te-lo como professor! <3
+        </p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+<footer>
+    <p>
+        <script>
+            let data = new Date()
+            document.write(data.toLocaleDateString());
+        </script> | Todos os direitos reservados a Wellington Cidade.
+    </p>
+</footer>
+
+</html>
